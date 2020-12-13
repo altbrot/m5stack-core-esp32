@@ -20,12 +20,12 @@
  
 // Define the version number, also used for webserver as Last-Modified header and to
 // check version for update.  The format must be exactly as specified by the HTTP standard!
-#define VERSION     "Sat, 28 Dec 2019 12:00:00 GMT"
+#define VERSION     "Sun, 13 Dec 2020 20:00:00 GMT"
 
 // M5Stack Web radio can be updated (OTA) to the latest version from a remote server.
 // The download uses the following server and files:
-#define UPDATEHOST  "nakedninja.cc"                      // Host for software updates
-#define BINFILE     "/Arduino/M5Stack_web_radio.ino.bin" // Binary file name for update software
+#define UPDATEHOST  "lunatime.blob.core.windows.net"                      // Host for software updates
+#define BINFILE     "/espradio/firmware.bin" // Binary file name for update software
 
 //
 // Define (just one) type of display.  See documentation.
